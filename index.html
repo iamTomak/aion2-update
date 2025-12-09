@@ -1,62 +1,229 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AION 2 Güncelleme Notları</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AION 2 – 10 Aralık Güncelleme Notları</title>
     <style>
         body {
+            background-color: #0d1117;
+            color: #e6edf3;
             font-family: Arial, sans-serif;
-            background: #0d0d0d;
-            color: #e6e6e6;
             margin: 0;
             padding: 20px;
-            line-height: 1.6;
         }
         .container {
-            max-width: 800px;
+            max-width: 1000px;
             margin: auto;
-            background: #1a1a1a;
-            padding: 20px;
-            border-radius: 10px;
-            border: 1px solid #333;
+            background-color: #161b22;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #30363d;
         }
-        h1 {
-            text-align: center;
-            color: #4da6ff;
+        h1, h2, h3 {
+            color: #58a6ff;
         }
         h2 {
-            color: #66b3ff;
-            border-bottom: 1px solid #333;
-            padding-bottom: 5px;
+            margin-top: 40px;
+            border-left: 4px solid #58a6ff;
+            padding-left: 10px;
+        }
+        h3 {
+            margin-top: 25px;
+            color: #79c0ff;
         }
         ul {
+            line-height: 1.7;
             margin-left: 20px;
+        }
+        .section {
+            margin-bottom: 45px;
+        }
+        .event {
+            background-color: #1f242d;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #d29922;
+            margin-bottom: 15px;
+        }
+        .class-block {
+            background-color: #1c222b;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #6cb6ff;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>AION 2 Güncelleme Notları</h1>
+<div class="container">
 
-        <h2>📌 Genel Bilgilendirme</h2>
-        <p>Oyun içi adaleti korumak amacıyla makro, bot veya hile kullanımı tespit edilen hesaplar hakkında işlem yapılmaktadır.</p>
+    <h1>🇹🇷 AION2 – 10 Aralık Güncelleme Notları</h1>
 
-        <h2>⚠ Çalışma Odası / Bot Kullanımı</h2>
+    <div class="section">
+        <h2>📌 Oyun İçeriği ve Sistem</h2>
+
+        <h3>■ Yeni: Dünya Pazarı</h3>
         <ul>
-            <li>Tekrarlı makro kullanımı tespit edildiğinde hesap çalışma odası (bot) davranışı olarak işaretlenebilir.</li>
-            <li>Haksız şekilde oyun içi para veya eşya elde eden hesaplara işlem uygulanır.</li>
+            <li>Tüm ırklar ve farklı sunuculardaki oyuncular arasında serbest ticaret yapılabilir.</li>
+            <li>Mevcut sunucu pazarı kullanılmaya devam edecek.</li>
+            <li>Dünya Pazarı satış vergisi: %20</li>
+            <li>Dünya Pazarı / Takas Pazarı kayıt limiti: 10 kez</li>
+            <li>Pazarlar yalnızca abonelik aktif oyuncular tarafından kullanılabilir.</li>
         </ul>
 
-        <h2>🔧 Teknik İyileştirmeler</h2>
+        <h3>■ Yeni: Çoklu Sohbet Penceresi</h3>
         <ul>
-            <li>Stabilite artırma çalışmaları</li>
-            <li>Hata düzeltmeleri</li>
-            <li>Performans optimizasyonu</li>
+            <li>HUD üzerinde birden fazla sohbet penceresi açılabilir.</li>
+            <li>Pencereler sürüklenebilir ve yeniden konumlandırılabilir.</li>
+            <li>Her sohbet sekmesi pop-up ile ayrı pencereye taşınabilir.</li>
         </ul>
 
-        <h2>🛡 Ek Notlar</h2>
-        <p>Güvenli bir oyun ortamı için lütfen üçüncü parti yazılımlar kullanmayın. AION 2 ekibi oyun deneyimini geliştirmeye devam ediyor.</p>
+        <h3>■ Kinah Düşüş Limiti</h3>
+        <ul>
+            <li>Günlük kinah limiti: 2.000.000 → <b>1.000.000</b></li>
+            <li>Limit dolduğunda eşya düşüşleri de kısıtlanır.</li>
+            <li>Limit dolduğunda karakter simge gösterir.</li>
+            <li>Yer düşen eşyaların korunma süresi: 2 dakika</li>
+        </ul>
+
+        <h3>■ Gizli Çanta (Anahtar ile)</h3>
+        <p>Tüm Atreia bölgelerine eklenmiştir.</p>
+
+        <h3>■ Yeni: Abyss Ödülleri</h3>
+        <ul>
+            <li>Dönüşüm – Özel – Tüketim bölümüne “Madalyon Tarzı” eklendi.</li>
+            <li>%10 şansla “Gümüş Madalyon” üretilebilir. (Hafta 10 kez)</li>
+            <li>Gümüş Madalyon Parçası Abyss elitlerinden düşer.</li>
+        </ul>
+
+        <h3>■ UI Güncellemeleri</h3>
+        <ul>
+            <li>Pazar arayüzü geliştirmeleri</li>
+            <li>Çanta & depo tooltip iyileştirmeleri</li>
+            <li>Ana Tanrı statüleri bağlantılı görünür</li>
+            <li>Süs eşyası paylaşma ve pazar yönlendirme eklendi</li>
+            <li>Yeni unvan bildirimleri</li>
+            <li>Parti / lejyon görünürlük iyileştirmeleri</li>
+            <li>Zar sonuçlarının sohbet penceresinde görünmesi</li>
+            <li>Üyelik kalan saat gösterimi</li>
+            <li>Bazı UI butonlarına F tuşu atanabilir</li>
+            <li>Tüm sınıflara özel renk ataması</li>
+        </ul>
     </div>
+
+    <div class="section">
+        <h2>⚔ Sınıf Denge Güncellemeleri</h2>
+
+        <div class="class-block">
+            <h3>■ Gladiator</h3>
+            <ul>
+                <li>Birçok saldırı skilli: yüksek tehdit artışı</li>
+                <li>“Usta Karşı Saldırı”: saldırı gücü → hasar artırma</li>
+                <li>“Çılgın Kılıç Dansı” 5. özellik CD → 1 saniye</li>
+            </ul>
+        </div>
+
+        <div class="class-block">
+            <h3>■ Templar</h3>
+            <ul>
+                <li>Birçok saldırı skilli: %7–20 hasar artışı</li>
+                <li>Kalkan skillleri: %15 güç artışı</li>
+                <li>HP buffları: %15 artış</li>
+                <li>Tank tehdit değerleri artırıldı</li>
+                <li>“Azarlama” tehdit artırıldı</li>
+                <li>Çok sayıda skill hatası düzeltildi</li>
+                <li>“Işık Patlaması” 5. özellik CD → 1 saniye</li>
+            </ul>
+        </div>
+
+        <div class="class-block">
+            <h3>■ Assassin</h3>
+            <ul><li>“Kasırga Dansı” 5. özellik CD → 1 saniye</li></ul>
+        </div>
+
+        <div class="class-block">
+            <h3>■ Chanter</h3>
+            <ul>
+                <li>“İyileştirme İlâhisi” değiştirildi → Yeni stigma</li>
+                <li>Saldırı skilllerinde %5–15 güç artışı</li>
+                <li>“Yenilmez İlahi”: %10 → %15.5</li>
+                <li>“Toprak Antlaşması” debuff değişti</li>
+                <li>Birçok animasyon yenilendi</li>
+            </ul>
+        </div>
+
+        <div class="class-block">
+            <h3>■ Sorcerer</h3>
+            <ul>
+                <li>“Cehennem Alevi”: tek hedef → alan saldırısı</li>
+                <li>“Çelik Bariyer”: %15 daha güçlü</li>
+                <li>“Kutsama Gücü”: Atk → Hasar artırma</li>
+                <li>“Alev Tarama” 5. özellik CD → 1 saniye</li>
+            </ul>
+        </div>
+
+        <div class="class-block">
+            <h3>■ Ranger</h3>
+            <ul>
+                <li>“Ok Yağmuru” 5. özellik CD → 1 saniye</li>
+                <li>“Kasırga Oku” açıklaması düzeltildi</li>
+            </ul>
+        </div>
+
+        <div class="class-block">
+            <h3>■ Spiritmaster</h3>
+            <ul>
+                <li>Tüm Ruh Çağırma skillleri anında</li>
+                <li>Ateş saldırıları %10–15 arttı</li>
+                <li>Elemental skill düzenlemeleri</li>
+                <li>Birçok bug düzeltildi</li>
+            </ul>
+        </div>
+
+        <div class="class-block">
+            <h3>■ Cleric</h3>
+            <ul>
+                <li>Saldırı skilllerinde %10–20 artış</li>
+                <li>Şifa skilllerinde %15 güç artışı</li>
+                <li>HP artıran buff: +%15</li>
+                <li>Debuff güçlendirmeleri</li>
+                <li>Birçok bug düzeltildi</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h2>🎄 Etkinlikler</h2>
+
+        <div class="event">
+            <h3>■ Atreia’nın Kışı (10 Aralık – 14 Ocak)</h3>
+            <p>28 günlük giriş ödülleri (enerji, can kristali, anahtarlar, güç taşları vb.)</p>
+        </div>
+
+        <div class="event">
+            <h3>■ Noel Arifesi Hediyesi (10 Aralık – 24 Aralık)</h3>
+            <ul>
+                <li>Noel çanı</li>
+                <li>Kar tanesi kristali</li>
+                <li>Noel Ağacı Taç görünümü</li>
+            </ul>
+        </div>
+
+        <div class="event">
+            <h3>■ Noel Şenliği (10 Aralık – 31 Aralık)</h3>
+            <ul>
+                <li>Geçiş Kartı: Kar Beyazı Atreia</li>
+                <li>Kar Kristali görev kitapları</li>
+                <li>Kar Kristali dönüşümleri (%50 / %25 / %10)</li>
+                <li>Geyik kutuları (3 tür)</li>
+                <li>Noel Çanı mağazası: görünümler, maskeler, taşlar</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
 </body>
 </html>
